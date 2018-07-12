@@ -1,0 +1,91 @@
+.blog-content {
+	padding: 9em 0em;
+}
+
+.blog-content::before {
+	content: '';
+	display: inline-block;
+	background: #2ECC71;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+}
+
+.pengumuman-content {
+	padding: 9em 0em;
+}
+
+.pengumuman-content::before {
+	content: '';
+	display: inline-block;
+	background: #FFD500;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	position: absolute;
+	top: 0;
+}
+
+.content-blog {
+	padding: 57px;
+}
+
+.text-blog p {
+	text-indent: 2em;
+	text-align: justify;
+}
+
+.img-blog {
+	/* height: 100%; */
+	height: 31em;
+	position: relative;
+}
+
+.info-blog {
+	align-items: center;
+}
+
+.FlexEmbed {
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+
+.FlexEmbed:before {
+	content: "";
+	display: block;
+	width: 100%;
+}
+
+.FlexEmbed--3by1:before {
+	padding-bottom: 33.33333%;
+}
+
+.FlexEmbed--2by1:before {
+	padding-bottom: 50%;
+}
+
+.FlexEmbed--16by9:before {
+	padding-bottom: 56.25%;
+}
+
+.FlexEmbed--4by3:before {
+	padding-bottom: 75%;
+}
+
+.CoverImage {
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* margin: 0 auto 1em; */
+	max-height: 100%;
+	/* max-width: 100%; */
+}
+
+footer {
+	height: 11em;
+	background-color: #333;
+	color: white;
+}
